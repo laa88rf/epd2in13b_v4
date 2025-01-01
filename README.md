@@ -16,6 +16,20 @@
 |  Busy   |  18 |
 
 
+# esp32 (30) pinouts
+| e-Paper | pin    |
+|---------|--------|
+|  3.3v   |  3.3v  |
+|  GND    |  GND   |
+|  SCL    |  18    |
+|  SDA    |  23    |
+|  RES    |  16    |
+|   DC    |  17    |
+|   CS    |   5    |
+|  Busy   |   4    |
+
+
+
 # Links
 - [waveshare specification](https://www.waveshare.com/wiki/2.13inch_e-Paper_HAT_(B))
 - [waveshare repo](https://github.com/waveshare/e-Paper.git)
