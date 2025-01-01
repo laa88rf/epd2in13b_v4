@@ -3,30 +3,18 @@
 2.13 inches e-paper display. Screen resolution 122x250 pix
 
 
-# Raspberi PI pinouts
-| e-Paper | pin |
-|---------|-----|
-|  3.3v   |  1  |
-|  GND    |  20 |
-|  SCL    |  23 |
-|  SDA    |  21 |
-|  RES    |  19 |
-|   DC    |  22 |
-|   CS    |  24 |
-|  Busy   |  18 |
+# Pinout
+| e-Paper            | Raspberry Pi | ESP32 (30 pins) |
+|--------------------|--------------|-----------------|
+|  3.3v              |  1           | 3.3v |
+|  GND               |  20          | GND  |
+|  SCL (CLK or SCK)  |  23          | 18   |
+|  SDA (DIN or MOSI) |  19          | 23   |
+|  RES (RST)         |  11          | 16   |
+|   DC               |  22          | 17   |
+|   CS               |  24          | 5    |
+|  Busy              |  18          | 4    |
 
-
-# esp32 (30) pinouts
-| e-Paper | pin    |
-|---------|--------|
-|  3.3v   |  3.3v  |
-|  GND    |  GND   |
-|  SCL    |  18    |
-|  SDA    |  23    |
-|  RES    |  16    |
-|   DC    |  17    |
-|   CS    |   5    |
-|  Busy   |   4    |
 
 
 
